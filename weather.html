@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand">the weather</h3>
+            <div>
+                <h1 class="temp"></h1> <!-- Added temp element -->
+                <div class="city-time">
+                    <h1 class="name">Navsari</h1>
+                    <small>
+                        <span class="time"></span>
+                        <span class="date"></span>
+                    </small>
+                </div>
+                <div class="weather">
+                    <img src="https://www.kindpng.com/picc/m/19-198562_iphone-sun-emoji-png-transparent-png.png" class="icon" alt="icon" width="50" height="50" /> <!-- Added icon element -->
+                    <span class="condition">clody</span> <!-- Added condition element -->
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <form id="locationInput">
+                <input type="text" class="search" placeholder="Search location...." />
+                <button type="submit" class="submit">Find</button>
+            </form>
+            <ul class="cities">
+                <li class="city">Navsari</li>
+                <li class="city">Anand</li>
+                <li class="city">Valsad</li>
+                <li class="city">New York</li>
+            </ul>
+            <ul class="details"> <!-- Changed from <ul> to <div> -->
+                <h4>Weather Details</h4>
+                <ul>
+                    <li>
+                        <span>Humidity</span>
+                        <span class="humidity"></span>
+                    </li>
+                    <li>
+                        <span>Wind</span>
+                        <span class="wind"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    <script src="weather.js"></script>
+</body>
+
+</html>
+
