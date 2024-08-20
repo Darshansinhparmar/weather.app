@@ -44,7 +44,7 @@ function dayOfTheWeek(day, month, year) {
 }
 
 function fetchWeatherData() {
-    const apiKey = '625955393cb322ec2346b0962166793d'; // Replace with your OpenWeatherMap API key
+    const apiKey = 'ENTER_YOUR_API_KEY'; 
 
     if (!cityInput) {
         alert('City input is missing');
